@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(234, 234, 234);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -51,10 +51,94 @@ h1 {
 
 .container-button {
     background-color: white;
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 15px 0 15px 50px;
 }
 
-.section-list {
+.container-list {
+    background-color: white;
+    margin-top: 10px;
+}
 
+h2 {
+    padding-left: 50px;
+    align-items: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.check {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #7cc7a5;
+    border-radius: 50%;
+    position: relative;
+}
+
+.cross {
+    width: 18px;
+    height: 18px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+}
+
+.tag {
+    font-size: 0.8em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.editorial {
+    background-color: #5bb0f2;
+    padding: 6px;
+}
+
+.sales {
+    background-color: #a3d65c;
+    padding: 6px;
+}
+
+.website {
+    background-color: #da70d6;
+    padding: 6px;
+}
+
+.mobile {
+    background-color: #f4a742;
+    padding: 6px;
+}
+
+.recruiting {
+    background-color: #6fcf97;
+    padding: 6px;
+}
+
+.goals {
+    background-color: #a78bfa;
+    padding: 6px;
+}
+
+#margine-basso {
+    padding-bottom: 1px;
+}
+
+#margine-alto {
+    padding-top: 10px;
 }
