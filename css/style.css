@@ -5,9 +5,8 @@
 }
 
 .container {
-    width: 50% ;
+    width: 50%;
     margin: 0 auto;
-    background-color: white;
 }
 
 body {
@@ -35,11 +34,12 @@ h1 {
 
 .button-task {
     color: white;
-    background-color: rgb(40, 121, 209);
+    background-color: #2879d1;
+    border-color: #2879d1;
     padding: 5px 10px;
     border-radius: 5px
 }
-    
+
 
 .button-section {
     color: gray;
@@ -49,3 +49,12 @@ h1 {
     border-radius: 5px
 }
 
+.container-button {
+    background-color: white;
+    margin-top: 50px;
+    padding: 15px 0 15px 50px;
+}
+
+.section-list {
+
+}
