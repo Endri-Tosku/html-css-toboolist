@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+.wrapper {
+    background-color: grey;
+}
+
+header {
+    background-color: white;
+}
+*/
+
+.logo {
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.titolo {
+    float: left;
+    font-size: xxx-large;
+    padding-top: 10px;
+    padding-left: 5px;
+}
